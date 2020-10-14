@@ -1,6 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
 require("dotenv").config();
+const apiRoutes = require("./routes/apiRoutes.js");
+const htmlRoutes = require("./routes/htmlRoutes.js");
+
 
 const PORT = process.env.PORT || 3000;
 
@@ -12,14 +15,16 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
-mongoose.connect("mongodb://localhost/workout", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
 
   useNewUrlParser: true,
   useFindAndModify: false
 });
 
 // routes
-// app.use(require("./routes/api.js"));
+app.use(apiRoutes);
+app.use(htmlRoutes);
+
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
