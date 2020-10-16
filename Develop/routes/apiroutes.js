@@ -15,26 +15,24 @@ apiRouter.get("/api/workouts", (req, res) => {
 });
 
 // put route to add an exercise to a workout by ID
-// apiRouter.put("/api/workouts/:id", ({ body, params }, res) => {
-//     db.Workout.findByIdAndUpdate(
-//         {
-//             _id: 
-//         },
-//     {
-//     $push: {
-//         exercise: exercise
-//         }
-//     },
-// (error, edited) => {
-//     if (error) {
-//         console.log(error);
-//         res.send(error);
-//       } else {
-//         console.log(edited);
-//         res.send(edited);
-//       }
-// })
-// });
+apiRouter.put("/api/workouts/:id", ({ body, params }, res) => {
+    db.Workout.findByIdAndUpdate(
+            params.id,
+    {
+    $push: {
+        exercises: body
+        }
+    },
+        (error, edited) => {
+    if (error) {
+        console.log(error);
+        res.send(error);
+      } else {
+        console.log(edited);
+        res.send(edited);
+      }
+})
+});
 
 // post route to create workouts
 apiRouter.post("/api/workouts", ({ body }, res) => {
