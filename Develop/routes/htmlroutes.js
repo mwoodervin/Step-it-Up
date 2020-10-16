@@ -4,17 +4,17 @@ const htmlRouter = require("express").Router();
 
 // default get route to index page
 htmlRouter.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "../index.html"))
+    res.sendFile(path.join(__dirname, "../public/index.html"))
 });
 
 // get route to put an exercise on the page
 htmlRouter.get("/exercise", (req, res) => {
-    res.sendFile(path.join(__dirname, "../exercise.html"))
+    res.sendFile(path.join(__dirname, "../public/exercise.html"))
 });
 
 // get route to put exercise stats on a stats page
 htmlRouter.get("/stats", (req, res) => {
-    res.sendFile(path.join(__dirname, "../stats.html"))
+    res.sendFile(path.join(__dirname, "../public/stats.html"))
 });
 
 module.exports = htmlRouter;
