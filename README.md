@@ -43,7 +43,7 @@
   ```
 
   ## CONTACT
-  If you are interested in contacting me about this application, you can find me on [github](https://github.com/mwoodervin) or email me at mwoodervin@gmail.com.
+  If you are interested in contacting me about this application, you can find me on [github](https://github.com/mwoodervin) or [email](email:mwoodervin@gmail.com).
 
   ## LICENSE
   Copyright <2020> <COPYRIGHT Mary W. Ervin>
