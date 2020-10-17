@@ -5,12 +5,14 @@
   ## DESCRIPTION
   This application provides users with a way to develop, store and chart workouts. The interface is simple; workouts can be added and modified; progress is tracked an charted to increase motivation
 
+  ## CHECK IT OUT HERE
+  https://step-it-up-mongoose.herokuapp.com/?id=5f8b6e2b13687e46f6a3bb95
+
+
   ## TABLE OF CONTENTS
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Testing](#testing)
   - [Contact](#contact)
   - [License](#license)
 
@@ -20,24 +22,25 @@
 ```
 
   ### SCREENSHOTS
-  
+  Homepage where most recent workouts are displayed; access to add workouts or view workout history
+
+  ![image](https://user-images.githubusercontent.com/65414966/96354478-274df200-10a5-11eb-87c5-0e184af22c13.png)
+
+
+  Stats page displaying charts of workout history
+  ![image](https://user-images.githubusercontent.com/65414966/96354490-55333680-10a5-11eb-9187-cdffabfab071.png)
+
+  Add workout page
+  ![image](https://user-images.githubusercontent.com/65414966/96354516-8f043d00-10a5-11eb-82b9-8e71fd05ec6b.png)
 
 
   ## USAGE
   This application makes it easy to create a simple employee directory for a team including one manager and any number of engineers and interns. 
 
   ```
-  As a manager
-  I want to generate a webpage that displays my team's basic info
-  so that I have quick access to emails and GitHub profiles
+  As a fitness enthusiast
+  I WANT a place to collect and track my workouts
   ```
-
-  ## TESTING
-
-  ![image](https://user-images.githubusercontent.com/65414966/91648521-c7d54d80-ea36-11ea-8cc3-15631985cc89.png)
-
-  ## HTML Output
-  ![image](https://user-images.githubusercontent.com/65414966/91648544-01a65400-ea37-11ea-8b20-e55b90bc165b.png)
 
   ## CONTACT
   If you are interested in contacting me about this application, you can find me on [github](https://github.com/mwoodervin) or email me at mwoodervin@gmail.com.
