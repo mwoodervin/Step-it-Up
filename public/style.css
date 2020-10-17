@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: #365994;
   color: #ffffff;
   height: 80px;
   padding: 10px;
@@ -386,6 +386,7 @@ form > button {
 
 .workout .ui.card {
   padding-top: 25px;
+  background-color: lightgray !important;
 }
 
 .prev-workout {
@@ -402,6 +403,15 @@ form > button {
   margin: 0;
   width: 50%;
 }
+
+.continue-workout-button {
+  background-color:  #4673c2 !important;
+}
+
+.new-workout-button {
+  background-color: rgb(109, 211, 109) !important;
+}
+
 
 .ui.card h2 {
   padding: 10px;
