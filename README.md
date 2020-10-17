@@ -3,7 +3,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## DESCRIPTION
-  This application provides users with a way to develop, store and chart workouts. The interface is simple; workouts can be added and modified; progress is tracked an charted to increase motivation
+  This application provides users with a way to develop, store and chart workouts. The interface is simple; workouts can be added and modified; progress is tracked and charted to increase motivation.
 
   ## CHECK IT OUT HERE
   https://step-it-up-mongoose.herokuapp.com/?id=5f8b6e2b13687e46f6a3bb95
@@ -40,6 +40,7 @@
   ```
   As a fitness enthusiast
   I WANT a place to collect and track my workouts
+  I WANT graphics to help me stay motivated
   ```
 
   ## CONTACT
